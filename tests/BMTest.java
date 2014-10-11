@@ -30,7 +30,7 @@ class BMTest extends TestDriver {
     status &= bmt.test3();
 
     // display the final results
-    System.out.println();g
+    System.out.println();
     if (status != PASS) {
       System.out.println("Error(s) encountered during " + TEST_NAME + ".");
     } else {
